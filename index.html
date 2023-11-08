@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Keton</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="ca/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="ca/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="ca/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="ca/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="Кетон" />
+    <meta name="application-name" content="Кетон" />
+    <meta name="msapplication-TileColor" content="#cce4f7" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo"><img src="./img/Logo.png" /></div>
+
+          <nav class="nav">
+            <ul>
+              <li>
+                <input
+                  id="search"
+                  class="nav_link"
+                  type="search"
+                  placeholder="Зарядись энергией кетонов/найти рецепт"
+                />
+              </li>
+              <li>
+                <input id="btn" class="nav_link" type="submit" value="Искать" />
+              </li>
+              <li>
+                <a id="navl" class="nav_link" href="index.html">Главная</a>
+              </li>
+              <li>
+                <a id="navl" class="nav_link" href="const.html">Конструктор</a>
+              </li>
+              <li>
+                <a id="navl" class="nav_link" href="error.html"
+                  >Связаться с нами</a
+                >
+              </li>
+              <li>
+                <button id="btn2" class="nav_link" type="button">Войти</button>
+              </li>
+              <li>
+                <button id="btn2" class="nav_link" type="button">
+                  Регистрация
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="heder_general"></div>
+    </header>
+
+    <div class="intro">
+      <div class="container">
+        <div class="intro__inner"></div>
+      </div>
+    </div>
+
+    <main class="main">
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/script.js"></script>
+
+      <section class="menu-slider">
+        <div class="holliday_container">
+          <h2 class="holliday_heading">ПРАЗДНИЧНОЕ МЕНЮ</h2>
+          <div class="wrapper">
+            <div class="slider">
+              <div class="slider__item filter">
+                <img
+                  class="slaider_img"
+                  src="img/imgonline-com-ua-Resize-tmFRYkdzId4J.jpg"
+                  alt=""
+                />
+                <a href="#" class="recipes_name">
+                  Тарты "Чизкейк с карамелью"</a
+                >
+              </div>
+              <div class="slider__item">
+                <img
+                  class="slaider_img"
+                  src="img/imgonline-com-ua-Resize-tevKgURS6lWIbh2.jpg"
+                  alt=""
+                />
+                <a href="#" class="recipes_name">
+                  Тарталетки с креветками и авокадо
+                </a>
+              </div>
+              <div class="slider__item filter">
+                <img
+                  class="slaider_img"
+                  src="img/imgonline-com-ua-Resize-5ZrrhcNXgu.jpg"
+                  alt=""
+                />
+                <a href="#" class="recipes_name"> Галета с черной смородиной</a>
+              </div>
+              <div class="slider__item">
+                <img
+                  class="slaider_img"
+                  src="img/imgonline-com-ua-Resize-HteooqN1xEC.jpg"
+                  alt=""
+                />
+                <a href="#" class="recipes_name"> Запечённая утка</a>
+              </div>
+              <div class="slider__item filter">
+                <img
+                  class="slaider_img"
+                  src="img/imgonline-com-ua-Resize-jEkBsYD8L3Ll.jpg"
+                  alt=""
+                />
+                <a href="#" class="recipes_name"> Кофейный рулет</a>
+              </div>
+              <div class="slider__item">
+                <img
+                  class="slaider_img"
+                  src="img/imgonline-com-ua-Resize-c0Wdsg3rT8V2wvie.jpg"
+                  alt=""
+                />
+                <a href="#" class="recipes_name"> Пирожное «Авокадо» </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="information">
+        <h2 class="information_keto_heading">ВСЁ ЧТО НУЖНО ЗНАТЬ О КЕТО</h2>
+        <div class="information_keto">
+          <div class="card card_left card_top">
+            <h3 class="title_card">
+              <span class="colortext">Сколько углеводов</span> в день нужно на
+              низкоуглеводной диете?
+            </h3>
+            <h4 class="card_text">
+              Сколько углеводов в день можно употреблять на низкоуглеводной
+              диете? Это количество варьируется. Оно зависит от того, каких
+              результатов вы пытаетесь добиться и какие у вас исходные
+              данные.<br /><br />
+              Низкоуглеводная диета часто определяется как рацион питания,
+              содержащий менее 130 граммов углеводов в день.
+            </h4>
+          </div>
+
+          <div class="card card_top">
+            <h3 class="title_card">
+              <span class="colortext">Низкоуглеводная еда</span> – что можно
+              есть
+            </h3>
+            <h4 class="card_text">
+              К низкоуглеводным продуктам относятся мясо, рыба, яйца, овощи и
+              натуральные жиры, такие как сливочное масло. На кето или
+              низкоуглеводной диете можно есть вкусную и полезную еду столько,
+              сколько захочешь… И продолжать худеть. <br /><br />
+              Из данной статьи вы можете узнать, как сделать проще
+              низкоуглеводную диету.
+            </h4>
+          </div>
+          <div class="card card_right card_top">
+            <h3 class="title_card">
+              Здоровые и <span class="colortext">полезные жиры</span> на кето и
+              низкоуглеводной диете
+            </h3>
+            <h4 class="card_text">
+              Жир – один из трёх макронутриентов, встречающихся в пище. На кето
+              или низкоуглеводной диете жир является основным источником
+              энергии, поэтому выбор здоровых жиров и употребление необходимого
+              количества полезных жиров очень важно. В данном руководстве вы
+              найдете информацию о том, что нужно знать о жирах на диете с
+              ограниченным количеством углеводов.
+            </h4>
+          </div>
+          <div class="card card_left card_bottom">
+            <h3 class="title_card">
+              <span class="colortext">Как похудеть</span> с помощью
+              низкоуглеводной диеты
+            </h3>
+            <h4 class="card_text">
+              Хотите ли вы похудеть, придерживаясь вкусной, питательной диеты,
+              которая позволит вам оставаться сытыми в течение нескольких часов
+              после приема пищи?<br /><br />
+              В другом руководстве мы поделились с вами резуьтатами исследований
+              на тему того, почему низкоуглеводная диета для похудения помогает
+              избавляться от лишнего веса.
+            </h4>
+          </div>
+          <div class="card card_bottom">
+            <h3 class="title_card">
+              Влияние кето-диеты на акне и другие
+              <span class="colortext">проблемы с кожей</span>
+            </h3>
+            <h4 class="card_text">
+              Основной задачей кето-диеты является введение организма в
+              состояние кетоза, когда понижается уровень глюкозы в крови, а
+              источником энергии становятся кетоновые тела. Состояние кетоза
+              продемонстрировало свою эффективность в борьбе с акне (угревой
+              сыпью) и другими кожными заболеваниями, например: экземы,
+              псориаза, дерматитов.
+            </h4>
+          </div>
+          <div class="card card_right card_bottom">
+            <h3 class="title_card">
+              Кето диета <span class="colortext">во время беременности</span>:
+              насколько безопасна?
+            </h3>
+            <h4 class="card_text">
+              Ни одна тема, связанная с кето питанием не вызывает столько
+              противоречий и вопросов, как соблюдение кето диеты во время
+              беременности. Уровень кетонов в моче беременных женщин пугает
+              многих врачей, из-за возможного развития таких опасных сос тояний
+              как диабетический кетоацидоз или голодный кетоз.
+            </h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="recipes">
+        <h2 class="title recipes_heading">РЕЦЕПТЫ</h2>
+        <div class="recipes_conteiner">
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-ryeWfQebha.jpg"
+              alt=""
+            />
+            <br/>
+            <a href="#" class="recipes_name_card"> Завтраки </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-3b3Z3bxyHiIppaNS.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Супы </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-D3Pr6bXZ1rq.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Салаты и закуски </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-pJqKeBY71vPQ8.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Соусы </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-jzm5ToafTJA8KX.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Основные блюда </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-G7e1Sbyrs7Aez.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Выпечка </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-tmFRYkdzId4J.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Десерты </a>
+          </div>
+          <div class="card_recipes">
+            <img
+              class="img_recipes"
+              src="img/imgonline-com-ua-Resize-m7qggDg4NCh8IzZJ.jpg"
+              alt=""
+            />
+            <br />
+            <a href="#" class="recipes_name_card"> Напитки </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="second_wrapper">
+        <div class="second_slider">
+          <div class="videos">
+            <video
+              width="1900px"
+              height="500px"
+              autoplay
+              muted
+              id="videoId"
+              loop="loop"
+            >
+              <source src="IMG_4162.MOV" />
+            </video>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="maim">
+      <div class="maim_help">
+        <div class="comments">
+          <h1 class="comments_title">Отзывы</h1>
+          <ul class="comment_item">
+            <li class="card">
+              <h2 class="card_surname">Елена Дмитриева</h2>
+
+              <p class="card_text">
+                "Олег, большое спасибо за рецепт и четкие инструкции. Давно не
+                пекла тортов, а вчера сделала по этому рецепту. Только вместо
+                клюквы использовала чернику, и вместо дробленого
+                фундука-миндаль. Вышло очень вкусно, напоминает трюфель."
+              </p>
+            </li>
+            <li class="card">
+              <h2 class="card_surname">Ольга Правосудова</h2>
+
+              <p class="card_text">
+                "Каждый раз пеку новый рецепт, и выходит неимоверно вкусно. Сына
+                отучила от сахара, от магазинных сладостей, от ресторанных
+                дорогущих десертов. Всё благодаря Вашим шедевральным кето
+                рецептам! От всей души благодарю Вас!!!"
+              </p>
+            </li>
+            <li class="card">
+              <h2 class="card_surname">Мария Иванова</h2>
+
+              <p class="card_text">
+                "Спасибо вам огромное, за красоту исполнения и за помощь увидеть
+                что можно не только вкусно, но и полезно. Кабачковые спагетти с
+                креветками - находка для меня и мой фаворит. Идей вам и
+                вдохновения"
+              </p>
+            </li>
+            <li class="card">
+              <h2 class="card_surname">Ангелина</h2>
+
+              <p class="card_text">
+                "Как это вкусно и как похоже на настоящую корзиночку взяла
+                малину, но непременно в следующий раз найду смородину!!! Я
+                предполагала, что будет вкусно, и зная свою прожорливость,
+                приготовила всего две штуки, чтобы не соблазняться так быстро и
+                легко приготовить, без каких-то там экзотических ингредиентов
+                вроде слезы единорога. Великолепный десерт! Благодарю вас"
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer_wraper">
+          <div class="footer_wrap">
+            <div class="footer_title">
+              <img src="./img/Logo.png" alt="keton" />
+            </div>
+            <ul class="footer_list">
+              <li>
+                <a href=" https://vk.com/ketopitanie_life"
+                  ><img src="./img/Vector.png" alt="VK"
+                /></a>
+              </li>
+              <li>
+                <a href=" https://web.telegram.org/k/#@bombones_tuyos"
+                  ><img src="./img/telegram 1.png" alt="telegram"
+                /></a>
+              </li>
+              <li>
+                <a href="https://dzen.ru/id/5ea589607ec4dd6df4698cca"
+                  ><img src="./img/Vector1.png" alt="dzen"
+                /></a>
+              </li>
+            </ul>
+            <div class="Communicate">Необходима консультация с врачом.</div>
+          </div>
+
+          <div class="footer_wrap_item">
+            <ul class="footer_link link_margin">
+              <li class="footer_item">
+                <a class="footer_link" href="#" footer_wraper>
+                  <img
+                    class="footer_img"
+                    src="./img/Meal.png"
+                    alt="Meal"
+                  />Каталог</a
+                >
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="const.html"
+                  ><img
+                    class="footer_img"
+                    src="./img/Order.png"
+                    alt="box"
+                  />Конструктор</a
+                >
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="about.html"
+                  ><img
+                    class="footer_img"
+                    src="./img/Avocado.png"
+                    alt="Avocado"
+                  />О нас</a
+                >
+              </li>
+            </ul>
+            <ul class="footer_link link_marg">
+              <li class="footer_item">
+                <a class="footer_link" href="#"
+                  ><img
+                    class="footer_img"
+                    src="./img/bell.png"
+                    alt="bell"
+                  />Подписаться</a
+                >
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#"
+                  ><img
+                    class="footer_img"
+                    src="./img/star.png"
+                    alt="star"
+                  />Партнёрам</a
+                >
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#"
+                  ><img
+                    class="footer_img"
+                    src="./img/Intersect.png"
+                    alt="Intersect"
+                  />Связаться с нами</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_text">
+          Полное или частичное использование материалов с данного сайта
+          разрешено только с письменного согласия администрации сайта. Владелец
+          оставляет за собой право воспользоваться статьей 146 УК РФ при
+          нарушении авторских и смежных прав.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
