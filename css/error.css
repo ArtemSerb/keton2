@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section,
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+body{
+  background-color: #E7E6E7;
+  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+li {
+  list-style-type: none;
+}
+/*Header*/
+.header {
+	background-color:#BBCB4F;
+	padding-bottom: 10px;
+	border-bottom: 3px solid white;
+  }
+  .container {
+	max-width: 1900px;
+	padding-top: 30px;
+	margin-left: 150px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+  }
+  .header__inner {
+	display: flex;
+	justify-content: space-between;
+  }
+  .nav_list {
+	display: flex;
+	justify-content: space-between;
+  }
+  .nav_link {
+	margin-right: 20px;
+	font-size: 20px;
+  }
+
+#search {
+	border: solid 1px #eaf9c8;
+	;
+	border-radius: 20px;
+	background-color: #eaf9c8;
+	padding-right: 60px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#btn {
+	border: solid 1px #eaf9c8;
+	;
+	border-radius: 20px;
+	background-color: #eaf9c8;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: rgb(74, 74, 74);
+}
+
+#btn2 {
+	border: solid 1px #506d0e;
+	border-radius: 20px;
+	background-color: #506d0e;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
+
+#btn3 {
+	border: solid 1px #d1ec93;
+	border-radius: 20px;
+	background-color: #d1ec93;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: rgb(0, 0, 0);
+}
+
+/*Nav*/
+.nav li {
+	display: inline-block;
+}
+
+.nav {
+	vertical-align: top;
+	text-align: right;
+
+}
+
+
+.nav_link {
+
+	text-decoration: none;
+	margin: 0 5px;
+	font-size: 17px;
+
+
+
+}
+
+#navl {
+	text-transform: uppercase;
+}
+
+/* Body */
+.section{
+  margin-bottom: 80px;
+}
+.error_text{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #333333;
+}
+.error_num{
+  background-repeat: no-repeat;
+  min-height: 341px;
+  max-width: 1620px;
+  margin: 0 auto;
+
+}
+
+.num{
+font-weight: 700;
+font-size: 200px;
+line-height: 340px;
+text-align: center;
+color: #FFFFFF;
+background-image: url(../img/photo\ error.png);
+}
+
+.section_text{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #333333;
+}
+.section_list{
+  display: flex;
+  margin-left: 429px;
+  margin-bottom: 59px;
+}
+.section_item{
+  margin-right: 290px;
+}
+.section_item{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color:#666666;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ref{
+  color: #5D8403;
+  text-decoration: underline;
+}
+
+.section_pic{  
+  display: flex;
+  justify-content: space-around;
+  max-width: 1620px;
+margin-left: 150px;
+margin-right: 20px;
+margin-bottom: 40px;}
+
+.pic_text{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size:20px;
+line-height:24px;
+}
+/* Footer */
+.footer {
+  background: #bbcb4f;
+  width: 100%;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: space-between;
+  width: 112px;
+  margin-left: 175px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+}
+
+.footer_title {
+  margin-top: 23px;
+  margin-left: 150px;
+  width: 170px;
+height: 49px;
+}
+.Communicate {
+  margin-left: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+
+}
+.footer_wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_link {
+  color: black;
+  text-decoration: none;
+  line-height: 40px;
+}
+.link_marg {
+  margin-right: 150px;
+}
+.link_margin {
+  margin-right: 83px;
+}
+.footer_wrap_item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+  line-height: 21px;
+  width: 520px;
+}
+
+.footer_text {
+  font-size: 12px;
+  margin-top: 28px;
+  padding-bottom: 19px;
+  width: 720px;
+  margin-left: 150px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.footer_img {
+  margin-right: 11px;
+}
+.footer_link{
+    color: #333333;
+}
